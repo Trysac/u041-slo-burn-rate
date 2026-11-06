@@ -19,6 +19,9 @@ classifiers = [
 ]
 dependencies = []
 
+[project.scripts]
+slo-burn-rate = "slo_burn_rate.__main__:main"
+
 [project.urls]
 Homepage = "https://github.com/Trysac/u041-slo-burn-rate"
 Source = "https://github.com/Trysac/u041-slo-burn-rate"
